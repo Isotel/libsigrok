@@ -448,6 +448,12 @@ src_libdrivers_la_SOURCES += \
 	src/hardware/mic-985xx/protocol.c \
 	src/hardware/mic-985xx/api.c
 endif
+if HW_MONODAQ_U
+src_libdrivers_la_SOURCES += \
+	src/hardware/monodaq-u/protocol.h \
+	src/hardware/monodaq-u/protocol.c \
+	src/hardware/monodaq-u/api.c
+endif
 if HW_MOTECH_LPS_30X
 src_libdrivers_la_SOURCES += \
 	src/hardware/motech-lps-30x/protocol.h \
