@@ -75,3 +75,8 @@ stamp-h?
 /tests/*.log
 /tests/*.trs
 /tests/main
+
+# CLion
+.idea/
+/compile_commands.json
+/compiledb
